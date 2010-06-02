@@ -77,7 +77,6 @@ if __name__ == "__main__":
   print("Spawning %d spiders" % N)
   for x in range(N):
     print("Spawning spider %d" % (x + 1))
-    #os.system(command)
-    print(command)
+    os.system(command)
     time.sleep(1)
 
